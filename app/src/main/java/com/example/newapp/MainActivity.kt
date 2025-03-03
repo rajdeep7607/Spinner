@@ -63,8 +63,7 @@ class MainActivity : AppCompatActivity() {
         val adapter3 =ArrayAdapter(this , android.R.layout.simple_list_item_1, countries)
         at_search.setAdapter(adapter3)
 
-//        jabsnkjfdnasgit add .
-//git commit -m "Initial commit"
+
         val button = findViewById<View>(R.id.submit_btn)
         button.setOnClickListener{
             Toast.makeText(this@MainActivity, "You are searching for "+at_search.text , Toast.LENGTH_SHORT).show()
